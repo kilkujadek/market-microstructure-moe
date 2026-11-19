@@ -1,0 +1,74 @@
+{
+  "disclosure": "100% synthetic supervised proxy; NOT the original RL model or a trading backtest",
+  "seed": 17,
+  "events": 10000,
+  "epochs": 8,
+  "window_events": 12,
+  "horizon_events": 8,
+  "split_sizes": {
+    "train": 6981,
+    "val": 1481,
+    "test": 1481
+  },
+  "test_loss": 0.52842,
+  "test_balanced_accuracy": 0.72554,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.60057,
+      "val_loss": 0.60837,
+      "train_balanced_accuracy": 0.73596,
+      "val_balanced_accuracy": 0.71733
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.53036,
+      "val_loss": 0.54459,
+      "train_balanced_accuracy": 0.74325,
+      "val_balanced_accuracy": 0.72243
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5096,
+      "val_loss": 0.53203,
+      "train_balanced_accuracy": 0.75124,
+      "val_balanced_accuracy": 0.72177
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.50298,
+      "val_loss": 0.52914,
+      "train_balanced_accuracy": 0.75307,
+      "val_balanced_accuracy": 0.72289
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.50027,
+      "val_loss": 0.52805,
+      "train_balanced_accuracy": 0.75411,
+      "val_balanced_accuracy": 0.72216
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.49847,
+      "val_loss": 0.52935,
+      "train_balanced_accuracy": 0.75357,
+      "val_balanced_accuracy": 0.72282
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.49743,
+      "val_loss": 0.53082,
+      "train_balanced_accuracy": 0.75376,
+      "val_balanced_accuracy": 0.72015
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.49672,
+      "val_loss": 0.52756,
+      "train_balanced_accuracy": 0.75547,
+      "val_balanced_accuracy": 0.72216
+    }
+  ],
+  "note": "Illustrative plot data from the previously executed local demo. To regenerate against the published Python implementation run python demo.py; exact metrics may differ."
+}
